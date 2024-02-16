@@ -1,0 +1,56 @@
+html{
+    background-image: url("Image/background.jpg");
+}
+.text{
+    width: 50%;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.text h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+textarea{
+    width: 600px; 
+    height: 250px;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    background-color: cyan;
+}
+
+.row{
+width: 600px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+select{
+    width: 300px;
+    height:35px;
+}
+
+button{
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+    background-color:green;
+}
+
+button img{
+    width: 70px;
+    height: 80px;
+}
